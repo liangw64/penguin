@@ -1,0 +1,31 @@
+.container {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: 1fr;
+  grid-template-rows: 5;
+  grid-template-areas:
+    'nav'
+    'header'
+    'maincontent'
+    'footer';
+}
+
+.nav {
+  grid-area: nav;
+}
+
+.header {
+  grid-area: header;
+  font-size: 2em;
+  justify-self: center;
+  margin-top: 50px;
+  text-align: center;
+}
+
+footer {
+  grid-area: footer;
+  text-align: center;
+  font-size: 0.8em;
+}
+
+

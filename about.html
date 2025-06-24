@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About Us</title>
+  <link rel="stylesheet" href="./css/layout.css">
+  <link rel="stylesheet" href="./css/nav.css" />
+  <link rel="stylesheet" href="./css/mainabout.css" />
+  
+</head>
+<body>
+  <div class="container">
+    
+      <ul class="nav">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+   
+
+    <h1 class="header">About Penguin Company</h1>
+
+    <main class="main-content">
+      <article class="article-content">
+        <p>We are passionate about penguins and sharing that love with the world through high-quality, themed products.</p>
+        <button onclick="changeColor()">Click to Change Background</button>
+      </article>
+
+      <img src="./image/penguin.jpg" class="image" width="500px;" alt="penguin">
+    </main>
+
+    <footer>
+      <p>&copy; 2025 Penguin Company. All rights reserved.</p>
+    </footer>
+  </div>
+
+  <script>
+    function changeColor() {
+      document.body.style.backgroundColor = "#d0f0fd";
+    }
+  </script>
+</body>
+</html>

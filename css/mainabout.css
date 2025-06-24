@@ -1,0 +1,27 @@
+
+.main-content {
+    margin: 40px 10%;
+    padding: 20px;
+    grid-area: maincontent;
+    display: grid;
+    justify-content:space-evenly;
+    justify-items: center;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+    'article image';	
+}
+
+
+.article-content {
+    grid-area: article;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+}
+
+
+.image {
+    grid-area: image;
+    text-align: center;
+    width:60%
+}

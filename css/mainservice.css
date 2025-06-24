@@ -1,0 +1,20 @@
+.card-container {
+  grid-area: maincontent;
+  padding: 20px;
+  margin: 0 10%;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(450px, 1fr));
+
+  gap: 1em;
+  justify-content: center;
+}
+
+.service-card {
+  border: 1px solid rgb(75, 82, 92);
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+  background-color: #0e7d33;
+  color: #ffffff;
+  text-align: center;
+}
